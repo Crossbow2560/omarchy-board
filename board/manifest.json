@@ -1,0 +1,22 @@
+{
+  "schemaVersion": 1,
+  "id": "board",
+  "name": "Board",
+  "version": "1.0.0",
+  "author": "Board",
+  "description": "A bulletin-board button for the bar that opens the board popup",
+  "kinds": [
+    "bar-widget"
+  ],
+  "keepLoaded": true,
+  "entryPoints": {
+    "barWidget": "BarWidget.qml"
+  },
+  "barWidget": {
+    "displayName": "Board",
+    "description": "Pin glyph with a card count; opens the bulletin board",
+    "category": "Productivity",
+    "defaultSection": "right",
+    "allowMultiple": false
+  }
+}

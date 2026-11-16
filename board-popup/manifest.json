@@ -1,0 +1,15 @@
+{
+  "schemaVersion": 1,
+  "id": "board.popup",
+  "name": "Board Popup",
+  "version": "1.0.0",
+  "author": "Board",
+  "description": "A pop-out bulletin board: paste images and text, sticky notes, todo cards, screen snips, and a freehand ink layer",
+  "kinds": [
+    "overlay"
+  ],
+  "keepLoaded": true,
+  "entryPoints": {
+    "overlay": "Overlay.qml"
+  }
+}
